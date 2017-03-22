@@ -8,6 +8,7 @@ public class test extends DBpool {
 		new test().t();
 	}
 	public  void t() throws SQLException{
+		System.out.println("≤‚ ‘git");
 		conn=getConn();
 		String sql="select * from student";
 		PreparedStatement ps=conn.prepareStatement(sql);
